@@ -3,7 +3,7 @@ import { EMAIL, PHONE, SITE_URL } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'Mentions légales',
-  description: 'Mentions légales du site Confort & Énergies, artisan plombier chauffagiste en Bourgogne-Franche-Comté.',
+  description: "Mentions légales du site Confort & Énergies, artisan plombier chauffagiste à Auxerre (89) et environs.",
   alternates: { canonical: `${SITE_URL}/mentions-legales` },
   robots: { index: false },
 }
@@ -20,7 +20,7 @@ export default function MentionsLegalesPage() {
           <p className="text-sm text-muted leading-relaxed">
             <strong className="text-ink">Confort & Énergies</strong><br />
             Artisan plombier chauffagiste<br />
-            Bourgogne-Franche-Comté — Mobile toute la France<br />
+            Auxerre (89) — Yonne, rayon 50 km<br />
             Téléphone : <a href={`tel:${PHONE.replace(/\s/g, '')}`} className="text-green-700 hover:underline">{PHONE}</a><br />
             Email : <a href={`mailto:${EMAIL}`} className="text-green-700 hover:underline">{EMAIL}</a>
           </p>

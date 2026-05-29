@@ -23,19 +23,19 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté — Devis Gratuit',
+    default: 'Confort & Énergies | Plombier Chauffagiste Auxerre et environs — Devis Gratuit',
     template: '%s | Confort & Énergies',
   },
   description:
-    'Artisan plombier chauffagiste en Bourgogne-Franche-Comté : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain. Devis gratuit, réponse sous 24h.',
+    "Artisan plombier chauffagiste à Auxerre (89) et environs : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain. Devis gratuit, réponse sous 24h.",
   keywords: [
-    'plombier chauffagiste Bourgogne-Franche-Comté',
-    'installation pompe à chaleur Bourgogne-Franche-Comté',
-    'rénovation salle de bain Bourgogne-Franche-Comté',
+    'plombier chauffagiste Auxerre et environs',
+    'installation pompe à chaleur Auxerre et environs',
+    'rénovation salle de bain Auxerre et environs',
     'dépannage plomberie',
     'chauffagiste Bourgogne',
     'installateur pompe à chaleur RGE',
-    'climatisation Bourgogne-Franche-Comté',
+    'climatisation Auxerre et environs',
     'MaPrimeRénov plombier',
   ],
   authors: [{ name: 'Confort & Énergies' }],
@@ -47,23 +47,23 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: SITE_URL,
     siteName: 'Confort & Énergies',
-    title: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté',
+    title: 'Confort & Énergies | Plombier Chauffagiste Auxerre et environs',
     description:
-      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Bourgogne-Franche-Comté. Artisan fiable, devis gratuit, accompagnement aides énergie.',
+      "Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain à Auxerre (89) et environs. Artisan fiable, devis gratuit.",
     images: [
       {
         url: '/images/hero-pompe-chaleur.jpg',
         width: 1920,
         height: 1315,
-        alt: 'Pompe à chaleur installée par Confort & Énergies en Bourgogne-Franche-Comté',
+        alt: 'Pompe à chaleur installée par Confort & Énergies à Auxerre (89)',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté',
+    title: 'Confort & Énergies | Plombier Chauffagiste Auxerre et environs',
     description:
-      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Bourgogne-Franche-Comté.',
+      "Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain à Auxerre (89) et environs.",
     images: ['/images/hero-pompe-chaleur.jpg'],
   },
   robots: {

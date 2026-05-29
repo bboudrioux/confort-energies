@@ -14,5 +14,5 @@ export const estimateRanges: Record<string, { label: string; range: string }> = 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://confort-energies.fr'
 export const PHONE = '06 42 05 22 14'
 export const EMAIL = 'confortetenergies@gmail.com'
-export const ZONE = 'Bourgogne-Franche-Comté'
-export const ZONE_DETAIL = 'Bourgogne-Franche-Comté — Mobile toute la France'
+export const ZONE = 'Auxerre et environs (rayon 50 km)'
+export const ZONE_DETAIL = 'Auxerre · Joigny · Sens · Tonnerre · Saint-Florentin'

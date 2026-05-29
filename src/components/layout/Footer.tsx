@@ -24,7 +24,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-green-300 leading-relaxed max-w-xs">
-              Artisan plombier chauffagiste en Bourgogne-Franche-Comté, mobile toute la France. Travaux soignés, devis gratuit, accompagnement aux aides à la rénovation énergétique.
+              Artisan plombier chauffagiste autour d'Auxerre (89), mobile toute la France. Travaux soignés, devis gratuit, accompagnement aux aides à la rénovation énergétique.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={14} className="shrink-0 mt-0.5" aria-hidden="true" />
-                <span>Bourgogne-Franche-Comté · Mobile toute la France</span>
+                <span>Auxerre · Joigny · Sens · Tonnerre et environs</span>
               </li>
             </ul>
           </div>

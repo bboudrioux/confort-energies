@@ -7,21 +7,21 @@ export function LocalBusinessJsonLd() {
     '@id': `${SITE_URL}/#organization`,
     name: 'Confort & Énergies',
     description:
-      'Artisan plombier chauffagiste en Bourgogne-Franche-Comté : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain.',
+      "Artisan plombier chauffagiste à Auxerre (89) et environs : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain.",
     url: SITE_URL,
     telephone: PHONE,
     email: EMAIL,
     areaServed: [
-      { '@type': 'State', name: 'Bourgogne-Franche-Comté' },
+      { '@type': 'State', name: 'Auxerre et environs' },
     ],
     serviceArea: {
       '@type': 'GeoCircle',
       geoMidpoint: {
         '@type': 'GeoCoordinates',
-        latitude: 47.322,
-        longitude: 5.0415,
+        latitude: 47.7979,
+        longitude: 3.5714,
       },
-      geoRadius: '150000',
+      geoRadius: '55000',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

@@ -6,7 +6,7 @@ import { PHONE } from '@/lib/utils'
 const trustBadges = [
   'Devis gratuit',
   'Réponse sous 24h',
-  'Mobile toute la France',
+  'Zone Auxerre — 50 km',
 ]
 
 export function Hero() {
@@ -18,7 +18,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-pompe-chaleur.jpg"
-        alt="Pompe à chaleur installée à l'extérieur d'une maison en Bourgogne-Franche-Comté — Confort & Énergies"
+        alt="Pompe à chaleur installée à l'extérieur d'une maison autour d'Auxerre (89) — Confort & Énergies"
         fill
         priority
         sizes="100vw"
@@ -41,7 +41,7 @@ export function Hero() {
           {/* Badge */}
           <p className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-green-100 text-xs font-semibold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-amber inline-block" aria-hidden="true" />
-            Artisan plombier chauffagiste — Bourgogne-Franche-Comté
+            Artisan plombier chauffagiste — Auxerre et environs
           </p>
 
           {/* H1 */}

@@ -21,7 +21,7 @@ export const expertiseDomains: ExpertiseDomain[] = [
       'Finitions soignées',
     ],
     image: '/images/salle-de-bain-carrelage.jpg',
-    imageAlt: 'Rénovation salle de bain avec carrelage moderne — Bourgogne-Franche-Comté',
+    imageAlt: 'Rénovation salle de bain avec carrelage moderne — Auxerre et environs',
   },
   {
     title: "Pompe à chaleur & économies d'énergie",

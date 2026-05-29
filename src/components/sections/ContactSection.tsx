@@ -109,7 +109,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-bold text-green-950 text-sm">{ZONE}</p>
-                  <p className="text-xs text-muted mt-0.5">Mobile toute la France</p>
+                  <p className="text-xs text-muted mt-0.5">Rayon 50 km autour d'Auxerre</p>
                 </div>
               </div>
             </address>

@@ -23,19 +23,19 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Confort & Énergies | Plombier Chauffagiste Île-de-France — Devis Gratuit',
+    default: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté — Devis Gratuit',
     template: '%s | Confort & Énergies',
   },
   description:
-    'Artisan plombier chauffagiste en Île-de-France : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain. Devis gratuit, réponse sous 24h. Paris, 77, 91, 93, 94.',
+    'Artisan plombier chauffagiste en Bourgogne-Franche-Comté : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain. Devis gratuit, réponse sous 24h.',
   keywords: [
-    'plombier chauffagiste Île-de-France',
-    'installation pompe à chaleur Île-de-France',
-    'rénovation salle de bain Île-de-France',
-    'dépannage plomberie Paris',
-    'chauffagiste autour de Paris',
+    'plombier chauffagiste Bourgogne-Franche-Comté',
+    'installation pompe à chaleur Bourgogne-Franche-Comté',
+    'rénovation salle de bain Bourgogne-Franche-Comté',
+    'dépannage plomberie',
+    'chauffagiste Bourgogne',
     'installateur pompe à chaleur RGE',
-    'climatisation Île-de-France',
+    'climatisation Bourgogne-Franche-Comté',
     'MaPrimeRénov plombier',
   ],
   authors: [{ name: 'Confort & Énergies' }],
@@ -47,23 +47,23 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: SITE_URL,
     siteName: 'Confort & Énergies',
-    title: 'Confort & Énergies | Plombier Chauffagiste Île-de-France',
+    title: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté',
     description:
-      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Île-de-France. Artisan fiable, devis gratuit, accompagnement aides énergie.',
+      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Bourgogne-Franche-Comté. Artisan fiable, devis gratuit, accompagnement aides énergie.',
     images: [
       {
         url: '/images/hero-pompe-chaleur.jpg',
         width: 1920,
         height: 1315,
-        alt: 'Pompe à chaleur installée par Confort & Énergies en Île-de-France',
+        alt: 'Pompe à chaleur installée par Confort & Énergies en Bourgogne-Franche-Comté',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Confort & Énergies | Plombier Chauffagiste Île-de-France',
+    title: 'Confort & Énergies | Plombier Chauffagiste Bourgogne-Franche-Comté',
     description:
-      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Île-de-France.',
+      'Plomberie, chauffage, pompe à chaleur et rénovation de salle de bain en Bourgogne-Franche-Comté.',
     images: ['/images/hero-pompe-chaleur.jpg'],
   },
   robots: {

@@ -11,7 +11,7 @@ export function ProjectsSection() {
             kicker="Réalisations"
             title="Des chantiers propres,"
             titleEm="bien finis"
-            description="Quelques exemples de travaux réalisés en Île-de-France."
+            description="Quelques exemples de travaux réalisés en Bourgogne-Franche-Comté."
           />
         </div>
 

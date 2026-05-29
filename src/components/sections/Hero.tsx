@@ -18,7 +18,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-pompe-chaleur.jpg"
-        alt="Pompe à chaleur installée à l'extérieur d'une maison en Île-de-France — Confort & Énergies"
+        alt="Pompe à chaleur installée à l'extérieur d'une maison en Bourgogne-Franche-Comté — Confort & Énergies"
         fill
         priority
         sizes="100vw"

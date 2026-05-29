@@ -7,22 +7,21 @@ export function LocalBusinessJsonLd() {
     '@id': `${SITE_URL}/#organization`,
     name: 'Confort & Énergies',
     description:
-      'Artisan plombier chauffagiste en Île-de-France : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain.',
+      'Artisan plombier chauffagiste en Bourgogne-Franche-Comté : plomberie, chauffage, pompe à chaleur, climatisation et rénovation de salle de bain.',
     url: SITE_URL,
     telephone: PHONE,
     email: EMAIL,
     areaServed: [
-      { '@type': 'State', name: 'Île-de-France' },
-      { '@type': 'City', name: 'Paris' },
+      { '@type': 'State', name: 'Bourgogne-Franche-Comté' },
     ],
     serviceArea: {
       '@type': 'GeoCircle',
       geoMidpoint: {
         '@type': 'GeoCoordinates',
-        latitude: 48.8566,
-        longitude: 2.3522,
+        latitude: 47.322,
+        longitude: 5.0415,
       },
-      geoRadius: '50000',
+      geoRadius: '150000',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

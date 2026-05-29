@@ -3,7 +3,7 @@ import { EMAIL, PHONE, SITE_URL } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'Mentions légales',
-  description: 'Mentions légales du site Confort & Énergies, artisan plombier chauffagiste en Île-de-France.',
+  description: 'Mentions légales du site Confort & Énergies, artisan plombier chauffagiste en Bourgogne-Franche-Comté.',
   alternates: { canonical: `${SITE_URL}/mentions-legales` },
   robots: { index: false },
 }
@@ -20,7 +20,7 @@ export default function MentionsLegalesPage() {
           <p className="text-sm text-muted leading-relaxed">
             <strong className="text-ink">Confort & Énergies</strong><br />
             Artisan plombier chauffagiste<br />
-            Île-de-France — Paris, 77, 91, 93, 94<br />
+            Bourgogne-Franche-Comté — Mobile toute la France<br />
             Téléphone : <a href={`tel:${PHONE.replace(/\s/g, '')}`} className="text-green-700 hover:underline">{PHONE}</a><br />
             Email : <a href={`mailto:${EMAIL}`} className="text-green-700 hover:underline">{EMAIL}</a>
           </p>

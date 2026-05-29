@@ -3,25 +3,60 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --green-950: #102514;
+  --green-900: #183a20;
+  --green-800: #24512e;
+  --green-700: #2f6b3d;
+  --green-600: #3a8050;
+  --green-100: #eef7ed;
+  --green-50: #f7fbf5;
+  --amber: #c7772d;
+  --amber-light: #f5e5d4;
+  --cream: #f7f4ed;
+  --ink: #172017;
+  --muted: #617061;
+  --border: #e5ece3;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.6;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Slider scroll-snap */
+.slider-track {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #c9d8c5 transparent;
+  padding-bottom: 0.5rem;
+}
+
+.slider-track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.slider-track::-webkit-scrollbar-thumb {
+  background: #c9d8c5;
+  border-radius: 999px;
+}
+
+.slider-item {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+  border-radius: 4px;
 }

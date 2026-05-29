@@ -1,0 +1,30 @@
+<svg viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leaf" x1="24" y1="5" x2="24" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F9A5E"/>
+      <stop offset="1" stop-color="#1F5C33"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="18" y1="40" x2="30" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9954C"/>
+      <stop offset="1" stop-color="#B86822"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagone -->
+  <path d="M24 1L44.8 13V37L24 49L3.2 37V13Z"
+    fill="#EEF6ED" stroke="#2E6B3F" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Feuille / flamme -->
+  <path d="M24 39.5C24 39.5 13.25 28.25 16.75 15.5C18.875 7.5 24 5 24 5C24 5 29.125 7.5 31.25 15.5C34.75 28.25 24 39.5 24 39.5Z"
+    fill="url(#leaf)"/>
+  <!-- Nervure centrale -->
+  <path d="M24 9.5C24 9.5 23.25 22.5 24 39.5"
+    stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  <!-- Pastilles cuivre -->
+  <circle cx="18.75" cy="39.75" r="2.25" fill="#C97B2E"/>
+  <circle cx="29.25" cy="39.75" r="2.25" fill="#C97B2E"/>
+  <!-- Pattes cuivre -->
+  <line x1="18.75" y1="40.5" x2="18.75" y2="44.5" stroke="url(#copper)" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="29.25" y1="40.5" x2="29.25" y2="44.5" stroke="url(#copper)" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Arc cuivre (raccord) -->
+  <path d="M18.75 44.5C18.75 50.5 29.25 50.5 29.25 44.5"
+    stroke="url(#copper)" stroke-width="3.2" stroke-linecap="round"/>
+</svg>

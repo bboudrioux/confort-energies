@@ -1,21 +1,21 @@
-import { NextResponse } from 'next/server'
-import { Resend } from 'resend'
-import { EMAIL } from '@/lib/utils'
+import { NextResponse } from "next/server";
+import { Resend } from "resend";
+import { EMAIL } from "@/lib/utils";
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    const { name, phone, email, prestation, message } = await req.json()
+    const { name, phone, email, prestation, message } = await req.json();
 
     if (!name || !phone || !email || !message) {
-      return NextResponse.json({ error: 'Champs manquants' }, { status: 400 })
+      return NextResponse.json({ error: "Champs manquants" }, { status: 400 });
     }
 
-    const contactEmail = process.env.CONTACT_EMAIL ?? EMAIL
+    const contactEmail = process.env.CONTACT_EMAIL ?? EMAIL;
 
     await resend.emails.send({
-      from: 'Confort & Énergies <onboarding@resend.dev>',
+      from: "Confort & Énergies <contact@confortetenergies.fr>",
       to: contactEmail,
       replyTo: email,
       subject: `Nouvelle demande de contact — ${name}`,
@@ -38,11 +38,15 @@ export async function POST(req: Request) {
                 <td style="padding: 8px 0; color: #68756d; font-size: 13px;">Email</td>
                 <td style="padding: 8px 0; font-weight: 600;"><a href="mailto:${email}" style="color: #2e6b3f;">${email}</a></td>
               </tr>
-              ${prestation ? `
+              ${
+                prestation
+                  ? `
               <tr>
                 <td style="padding: 8px 0; color: #68756d; font-size: 13px;">Prestation</td>
                 <td style="padding: 8px 0; font-weight: 600;">${prestation}</td>
-              </tr>` : ''}
+              </tr>`
+                  : ""
+              }
             </table>
             <hr style="border: none; border-top: 1px solid #e5e8df; margin: 20px 0;" />
             <p style="color: #68756d; font-size: 13px; margin: 0 0 8px;">Message</p>
@@ -54,11 +58,11 @@ export async function POST(req: Request) {
           </div>
         </div>
       `,
-    })
+    });
 
-    return NextResponse.json({ ok: true })
+    return NextResponse.json({ ok: true });
   } catch (err) {
-    console.error('[CONTACT] Resend error:', err)
-    return NextResponse.json({ error: 'Erreur serveur' }, { status: 500 })
+    console.error("[CONTACT] Resend error:", err);
+    return NextResponse.json({ error: "Erreur serveur" }, { status: 500 });
   }
 }

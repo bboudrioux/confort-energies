@@ -11,8 +11,11 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-9 h-[39px] shrink-0">
-                <img src="/logo-icon.svg" alt="" aria-hidden="true" width="36" height="39" />
+              <div className="w-11 h-11 shrink-0">
+                <picture>
+                  <source media="(max-width: 640px)" srcSet="/logo-mobile.png" />
+                  <img src="/logo-web.png" alt="" aria-hidden="true" width="44" height="44" className="w-full h-full object-contain" />
+                </picture>
               </div>
               <div>
                 <div className="font-bold text-white leading-tight text-sm">

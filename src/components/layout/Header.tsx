@@ -21,8 +21,11 @@ export function Header() {
       <nav className="flex h-[72px] w-full items-center justify-between px-4 sm:px-6 lg:px-10 gap-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 shrink-0" aria-label="Confort & Énergies — Accueil">
-          <div className="w-10 h-[43px] shrink-0">
-            <img src="/logo-icon.svg" alt="" aria-hidden="true" width="40" height="43" />
+          <div className="w-11 h-11 shrink-0">
+            <picture>
+              <source media="(max-width: 640px)" srcSet="/logo-mobile.png" />
+              <img src="/logo-web.png" alt="" aria-hidden="true" width="44" height="44" className="w-full h-full object-contain" />
+            </picture>
           </div>
           <div>
             <div className="text-[0.95rem] font-extrabold tracking-tight text-green-950 leading-tight">
